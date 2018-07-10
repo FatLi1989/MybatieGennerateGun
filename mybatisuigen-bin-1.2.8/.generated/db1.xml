@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="stratoUIGenerateoTOMybatis" targetRuntime="MyBatis3">
+    <property name="javaFileEncoding" value="GBK" />
+    <plugin type="org.mybatis.generator.plugins.SerializablePlugin">
+      <property name="suppressJavaInterface" value="false" />
+    </plugin>
+    <commentGenerator type="com.strato.mybatis.generator.v1_2_0.ui.ext.StratoCommentGenerator">
+      <property name="suppressDate" value="false" />
+      <property name="suppressAllComments" value="false" />
+      <property name="addRemarkComments" value="true" />
+    </commentGenerator>
+    <jdbcConnection connectionURL="jdbc:mysql://47.95.0.193:3306/shiro" driverClass="com.mysql.jdbc.Driver" password="root" userId="root" />
+    <javaTypeResolver>
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+    <javaModelGenerator targetPackage="com.jtsec.model" targetProject="D:\gitRepository\mybatisuigen-bin-1.2.8\src\main\java">
+      <property name="trimStrings" value="true" />
+      <property name="enableSubPackages" value="true" />
+    </javaModelGenerator>
+    <sqlMapGenerator targetPackage="com.jtsec.dao.xml" targetProject="D:\gitRepository\mybatisuigen-bin-1.2.8\src\main\resources">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+    <javaClientGenerator targetPackage="com.jtsec.dao.mapper" targetProject="D:\gitRepository\mybatisuigen-bin-1.2.8\src\main\java" type="XMLMAPPER">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+    <table domainObjectName="UsersRoles" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false" selectByExampleQueryId="true" tableName="sys_users_roles">
+      <property name="useActualColumnNames" value="false" />
+    </table>
+  </context>
+</generatorConfiguration>

@@ -1,0 +1,5 @@
+sys_permissions=Permissions
+sys_roles=Roles
+sys_roles_permissions=RolesPermissions
+sys_users=Users
+sys_users_roles=UsersRoles

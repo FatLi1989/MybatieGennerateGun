@@ -1,0 +1,5 @@
+targetPackage=com.jtsec
+targetModelPath=D:\gitRepository\mybatisuigen-bin-1.2.8\src\main\java
+targetMapperPath=D:\gitRepository\mybatisuigen-bin-1.2.8\src\main\java
+targetXMLPath=D:\gitRepository\mybatisuigen-bin-1.2.8\src\main\resources
+projectType=maven
